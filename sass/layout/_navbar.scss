@@ -1,10 +1,6 @@
 @use "../utilities/variables" as v;
 
-body{
-    background-color: #393939;
-}
-
-header{
+header {
     text-align: center;
     width: fit-content;
     position: fixed;
@@ -14,11 +10,11 @@ header{
     max-width: calc(100% - 32px);
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.navbar{
+.navbar {
     background-color: v.$fondo-pildora;
     padding: 1rem 1.3rem;
     display: flex;
@@ -26,10 +22,10 @@ a{
     align-items: center;
     gap: 2rem;
     border-radius: 50px;
-    border: 2px solid v.$borde-pildora;
+    border: 2px solid #898997;
 }
 
-.link-titulo{
+.link-titulo {
     color: v.$titulo-importante;
     font-family: v.$fuente-titulo;
     font-size: 1.6rem;
@@ -38,12 +34,12 @@ a{
 
     transition: all 0.2s linear;
 
-    &:hover{
+    &:hover {
         color: #d3d3d2;
     }
 }
 
-.link-nav{
+.link-nav {
     color: v.$link-nav;
     font-family: v.$fuente-texto;
     font-size: 1.2rem;
@@ -51,11 +47,11 @@ a{
 
     transition: all 0.3s linear;
 
-    &:hover{
+    &:hover {
         color: v.$color-menta;
     }
 }
 
-.link-bt-nav{
+.link-bt-nav {
     margin-left: 8px;
 }

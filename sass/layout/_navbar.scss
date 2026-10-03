@@ -1,0 +1,61 @@
+@use "../utilities/variables" as v;
+
+body{
+    background-color: #393939;
+}
+
+header{
+    text-align: center;
+    width: fit-content;
+    position: fixed;
+    top: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: calc(100% - 32px);
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar{
+    background-color: v.$fondo-pildora;
+    padding: 1rem 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    border-radius: 50px;
+    border: 2px solid v.$borde-pildora;
+}
+
+.link-titulo{
+    color: v.$titulo-importante;
+    font-family: v.$fuente-titulo;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-right: 8px;
+
+    transition: all 0.2s linear;
+
+    &:hover{
+        color: #d3d3d2;
+    }
+}
+
+.link-nav{
+    color: v.$link-nav;
+    font-family: v.$fuente-texto;
+    font-size: 1.2rem;
+    font-weight: 500;
+
+    transition: all 0.3s linear;
+
+    &:hover{
+        color: v.$color-menta;
+    }
+}
+
+.link-bt-nav{
+    margin-left: 8px;
+}

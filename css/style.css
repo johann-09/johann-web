@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.link-bt {
+  background-color: #38C987;
+  color: #141413;
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 1.2rem;
+  border-radius: 50px;
+  transition: all 0.3s linear;
+}
+.link-bt:hover {
+  background-color: #1eb16f;
+}
+
+body {
+  background-color: #393939;
+}
+
+header {
+  text-align: center;
+  width: fit-content;
+  position: fixed;
+  top: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: calc(100% - 32px);
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  background-color: rgba(11, 11, 15, 0.6901960784);
+  padding: 1rem 1.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  border-radius: 50px;
+  border: 2px solid #A9A9B5;
+}
+
+.link-titulo {
+  color: #F4F4F0;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-right: 8px;
+  transition: all 0.2s linear;
+}
+.link-titulo:hover {
+  color: #d3d3d2;
+}
+
+.link-nav {
+  color: #C9C9D1;
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  transition: all 0.3s linear;
+}
+.link-nav:hover {
+  color: #38C987;
+}
+
+.link-bt-nav {
+  margin-left: 8px;
+}
+
+/*# sourceMappingURL=style.css.map */

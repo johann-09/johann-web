@@ -1,0 +1,17 @@
+@use "../utilities/variables" as v;
+
+.link-bt{
+    background-color: v.$color-menta;
+    color: v.$texto-bt;
+    font-family: v.$fuente-texto;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 1.2rem;
+    border-radius: 50px;
+
+    transition: all 0.3s linear;
+
+    &:hover{
+        background-color: #1eb16f;
+    }
+}

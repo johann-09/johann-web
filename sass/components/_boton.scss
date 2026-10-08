@@ -25,3 +25,22 @@
     width: fit-content;
     border-radius: 50px;
 }
+
+.link-bt-serv{
+    background-color: v.$color-menta;
+    color: v.$texto-bt;
+    font-family: v.$fuente-texto;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 1.2rem;
+    border-radius: 50px;
+    width: fit-content;
+
+    transition: all 0.3s ease-in;
+
+    &:hover{
+        background-color: #27c980;
+        transform: translateY(-5px);
+        box-shadow: 0 4px 5px #095a35;
+    }
+}

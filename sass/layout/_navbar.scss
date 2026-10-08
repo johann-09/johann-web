@@ -3,11 +3,12 @@
 header {
     text-align: center;
     width: fit-content;
-    position: fixed;
     top: 16px;
     left: 50%;
     transform: translateX(-50%);
     max-width: calc(100% - 32px);
+    position: fixed;
+    z-index: 100;
 }
 
 a {

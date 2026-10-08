@@ -15,3 +15,13 @@
         background-color: #1eb16f;
     }
 }
+
+.link-bt-pro{
+    color: v.$titulo-importante;
+    font-family: v.$fuente-texto;
+    font-size: 1.2rem;
+    padding: 9px 13px;
+    background-color: v.$color-fondo;
+    width: fit-content;
+    border-radius: 50px;
+}

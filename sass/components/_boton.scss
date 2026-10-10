@@ -20,26 +20,28 @@
     color: v.$titulo-importante;
     font-family: v.$fuente-texto;
     font-size: 1.2rem;
-    padding: 9px 13px;
+    padding: 12px 15px;
     background-color: v.$color-fondo;
     width: fit-content;
     border-radius: 50px;
 }
 
 .link-bt-serv{
-    background-color: v.$color-menta;
-    color: v.$texto-bt;
+    background-color: #14141A;
+    color: v.$titulo-importante;
     font-family: v.$fuente-texto;
     font-size: 1.2rem;
     font-weight: 600;
     padding: 1.2rem;
     border-radius: 50px;
+    border: 2px solid #2f2f31;
     width: fit-content;
 
     transition: all 0.3s ease-in;
 
     &:hover{
         background-color: #27c980;
+        color: v.$color-fondo;
         transform: translateY(-5px);
         box-shadow: 0 4px 5px #095a35;
     }

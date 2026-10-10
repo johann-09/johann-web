@@ -11,6 +11,8 @@
     display: flex;
     flex-direction: row;
     gap: 4.5rem;
+    border-bottom: 2px solid #2f2f31;
+    padding-bottom: 4rem;
 }
 
 .tit-sec-serv{
@@ -46,8 +48,48 @@
     color: #dcdcdb;
 }
 
-.item-card{
+.card-contenedor li{
     color: #c0c0c3;
     font-family: v.$fuente-texto;
     font-size: 1.3rem;
 }
+
+.texto-fondo-oscuro{
+    color: v.$color-gris;
+}
+
+.inclusiones{
+    padding: 3rem;
+}
+
+// HECHO CON CLAUDE LAS INCLUSIONES
+.lista-incluye {
+    list-style: none;
+    margin-top: 3rem;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;                  /* en celular se acomodan en filas solas */
+    gap: 20px 40px;
+}
+
+.item-incluye {
+    display: flex;
+    align-items: center;
+    font-family: v.$fuente-texto;
+    gap: 12px;
+    font-size: 20px;
+    color: #E4E4EA;
+}
+
+.icono-incluye {
+    flex-shrink: 0;                   /* evita que el círculo se achique */
+    width: 32px;
+    height: 32px;
+    border: 1px solid #2A2A33;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: v.$color-menta;                   /* o v.$color-menta si lo usás */
+}
+// ---------------------

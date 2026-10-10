@@ -314,8 +314,7 @@ a {
 .servicios-seccion {
   background-color: #0B0B0F;
   padding: 4rem 5rem;
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
+  border-radius: 50px;
 }
 
 .caja-cards {
@@ -399,6 +398,47 @@ a {
   align-items: center;
   justify-content: center;
   color: #38C987; /* o v.$color-menta si lo usás */
+}
+
+.proceso-seccion {
+  padding: 4rem 5rem;
+  background-color: #FAFAF7;
+}
+
+.lista-proceso {
+  display: flex;
+  flex-direction: row;
+  gap: 2.5rem;
+}
+
+.lista-proceso li {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 350px;
+}
+
+.num-proceso {
+  font-family: "DM Sans", sans-serif;
+  font-size: 8.5rem;
+  font-weight: 700;
+  color: #0B6B43;
+}
+
+.tit-proceso {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.parte-cliente {
+  width: fit-content;
+  background-color: #a7a7a7;
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.3rem;
+  padding: 8px 13px;
+  border-radius: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */

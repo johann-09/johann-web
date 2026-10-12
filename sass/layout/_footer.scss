@@ -1,0 +1,53 @@
+@use "../utilities/variables" as v;
+
+footer{
+    background-color: #1f2121;
+    border-top: 4px solid v.$color-menta;
+    padding: 4rem 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.tit-footer{
+    font-family: v.$fuente-titulo;
+    font-weight: 700;
+    font-size: 6.5rem;
+    color: v.$titulo-importante;
+}
+
+.cont-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3rem;
+}
+
+.cont-info p{
+    font-family: v.$fuente-texto;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: v.$titulo-importante;
+}
+
+.footer-bajo{
+    border-top: 2px solid #4a4a4a;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.footer-bajo p{
+    font-family: v.$fuente-texto;
+    font-weight: 500;
+    font-size: 20px;
+    color: v.$color-gris;
+}
+
+.enlaces{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}

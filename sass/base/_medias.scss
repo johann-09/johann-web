@@ -1,0 +1,365 @@
+// BREAKPOINTS
+
+
+/* Tablets */
+@media (max-width: 1024px) {
+
+
+    // NAVBAR
+
+    .navbar {
+        padding: 0.5rem 1.2rem;
+    }
+
+    .link-titulo {
+        font-size: 1.3rem;
+    }
+
+    .link-nav {
+        font-size: 1rem;
+    }
+
+    .link-bt {
+        padding: 1rem;
+        font-size: 15px;
+        margin-right: 5px;
+    }
+
+    // HERO
+
+    .hero-seccion {
+        flex-direction: column;
+        padding-top: 7rem;
+    }
+
+    .titulo-hero {
+        font-size: 4rem;
+    }
+
+    .etiqueta {
+        display: none;
+    }
+
+    // PROYECTOS
+
+    .titulo-seccion {
+        font-size: 2.5rem;
+    }
+
+    .caja-proyecto {
+        flex-direction: column;
+    }
+
+    // SERVICIOS
+
+    .tit-card {
+        font-size: 2rem;
+    }
+
+    .desc-card {
+        font-size: 1.3rem;
+    }
+
+    .link-bt-serv {
+        padding: 1rem;
+    }
+
+    .card-contenedor li {
+        font-size: 1.1rem;
+    }
+
+    .item-incluye {
+        font-size: 17px;
+    }
+
+    // PROCESO
+
+    .lista-proceso {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .num-proceso {
+        font-size: 6rem;
+    }
+
+    .tit-proceso {
+        font-size: 2rem;
+    }
+
+    .parte-cliente {
+        width: auto;
+    }
+
+    // SOBRE MI
+
+    .saludo {
+        font-size: 3.5rem;
+    }
+
+    .presentacion {
+        gap: 1.5rem;
+    }
+
+    .caja-cards {
+        flex-wrap: wrap;
+    }
+
+    // FOOTER
+
+    footer {
+        padding: 3rem 4rem;
+    }
+
+    .tit-footer {
+        font-size: 4rem;
+    }
+
+    .link-footer {
+        padding: 15px;
+    }
+
+    .cont-info p {
+        font-size: 1.3rem;
+    }
+
+    .footer-bajo p {
+        font-size: 16px;
+    }
+
+}
+
+
+/* Celulares Promedio */
+@media (max-width: 480px) {
+
+
+    // NAVBAR
+
+    .navbar {
+        padding: 10px 13px;
+        gap: 8px;
+    }
+
+    .link-titulo {
+        font-size: 12px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    .link-nav {
+        font-size: 9px;
+    }
+
+    .link-bt {
+        padding: 8px 6px;
+        font-size: 12px;
+        margin-right: 5px;
+    }
+
+    // HERO
+
+    .hero-seccion {
+        flex-direction: column;
+        text-align: center;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        height: fit-content;
+        padding-top: 7rem;
+    }
+
+    .contenedor-hero {
+        margin: 0;
+        text-align: center;
+    }
+
+    .titulo-hero {
+        font-size: 2.5rem;
+        width: auto;
+    }
+
+    .descripcion-hero {
+        width: auto;
+        font-size: 1rem;
+    }
+
+    .etiqueta {
+        display: none;
+    }
+
+    .mockup-img {
+        width: 410px;
+        height: 250px;
+        border-radius: 50px;
+    }
+
+    .botones-hero {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .link-pro {
+        font-size: 12px;
+    }
+
+    // PROYECTOS
+
+    .proyectos-seccion {
+        padding: 2rem 2rem;
+    }
+
+    .nombre-seccion {
+        font-size: 1.2rem;
+    }
+
+    .titulo-seccion {
+        font-size: 2rem;
+    }
+
+    .texto {
+        font-size: 1.2rem;
+    }
+
+    .descripcion-seccion {
+        margin-bottom: 3rem;
+    }
+
+    .desc-proyecto {
+        gap: 1rem;
+    }
+
+    .eti-pro {
+        font-size: 14px;
+    }
+
+    .tit-proyecto {
+        font-size: 2.5rem;
+    }
+
+    .item-proyecto {
+        font-size: 1rem;
+    }
+
+    .link-bt-pro {
+        font-size: 1rem;
+    }
+
+    .caja-proyecto {
+        gap: 1rem;
+    }
+
+    .img-proyecto {
+        width: 390px;
+        height: 250px;
+    }
+
+    .caja-proyecto {
+        flex-direction: column;
+    }
+
+    .contenedor-pro{
+        gap: 6rem;
+    }
+
+    // SERVICIOS
+
+    .servicios-seccion{
+        padding: 3rem 2rem;
+    }
+
+    .tit-card {
+        font-size: 2rem;
+    }
+
+    .desc-card {
+        font-size: 1.3rem;
+    }
+
+    .link-bt-serv {
+        padding: 1rem;
+    }
+
+    .card-contenedor li {
+        font-size: 1.1rem;
+    }
+
+    .item-incluye {
+        font-size: 17px;
+    }
+
+    // PROCESO
+
+    .lista-proceso {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .num-proceso {
+        font-size: 6rem;
+    }
+
+    .tit-proceso {
+        font-size: 2rem;
+    }
+
+    .parte-cliente {
+        width: auto;
+    }
+
+    // SOBRE MI
+
+    .sobre-mi-seccion{
+        padding: 2rem;
+        gap: 5rem;
+    }
+
+    .card-sobre-mi{
+        padding: 2.5rem 2rem;
+    }
+
+    .letra-j{
+        padding: 1rem 2.6rem;
+    }
+
+    .saludo {
+        font-size: 2.5rem;
+    }
+
+    .presentacion {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .caja-cards {
+        flex-wrap: wrap;
+    }
+
+    // FOOTER
+
+    footer {
+        padding: 2rem;
+    }
+
+    .tit-footer {
+        font-size: 3rem;
+    }
+
+    .link-footer {
+        padding: 15px;
+    }
+
+    .cont-info p {
+        font-size: 12px;
+    }
+
+    .footer-bajo p {
+        font-size: 10px;
+    }
+
+    .link-bt-mobile{
+        padding: 0.5rem 0.7rem;
+        font-size: 13px;
+        text-align: center;
+        width: fit-content;
+    }
+}

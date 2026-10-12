@@ -2,8 +2,9 @@
 
 .hero-seccion{
     background-color: v.$color-fondo;
-    min-height: 100svh;
+    height: 100svh;
     padding-top: 30px;
+    padding-bottom: 15px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -69,20 +70,11 @@
 }
 
 .mockup{
-    position: relative;
-    width: 100%;
+    width: fit-content;
 }
 
 .mockup-img{
-    display: block;
-    width: 90%;
-    height: auto;
-    filter: drop-shadow(0 2px 35px #38c98886);
-}
-
-.mockup-img-celular{
-    width: 20%;
-    position: absolute;
-    bottom: -15%;
-    left: -15%;
+    width: 670px;
+    height: 440px;
+    border-radius: 50px;
 }

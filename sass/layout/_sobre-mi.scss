@@ -1,0 +1,59 @@
+@use "../utilities/variables" as v;
+
+.sobre-mi-seccion{
+    background-color: v.$color-fondo;
+    padding: 7rem 5rem;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+}
+
+.presentacion{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+
+.pre-desc{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.letra-j{
+    font-family: v.$fuente-titulo;
+    font-size: 4rem;
+    width: fit-content;
+    padding: 2rem 4rem;
+    background-color: v.$color-menta;
+    border-radius: 50%;
+}
+
+.saludo{
+    font-family: v.$fuente-titulo;
+    font-size: 5rem;
+    font-weight: 600;
+    color: v.$titulo-importante;
+}
+
+.card-sobre-mi{
+    padding: 4rem 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.icono-verde{
+    width: fit-content;
+    font-size: 2rem;
+    padding: 1rem 1.5rem;
+    background-color: v.$color-menta;
+    border-radius: 50%;
+}
+
+.icono-flecha{
+    font-weight: 900;
+}

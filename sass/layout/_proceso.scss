@@ -2,13 +2,16 @@
 
 .proceso-seccion{
     padding: 4rem 5rem;
-    background-color: #FAFAF7;
+    background-color: #e8eeeb;
 }
 
 .lista-proceso{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 2.5rem;
+    padding-bottom: 4rem;
+    border-bottom: 2px solid v.$color-gris;
 }
 
 .lista-proceso li{
@@ -39,4 +42,12 @@
     font-size: 1.3rem;
     padding: 8px 13px;
     border-radius: 50px;
+}
+
+.incluye-proceso{
+    color: v.$texto-bt;
+}
+
+.icono-pro{
+    color: v.$verde-oscuro;
 }

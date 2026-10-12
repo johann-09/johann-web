@@ -667,7 +667,7 @@ footer {
     display: none;
   }
   .mockup-img {
-    width: 375px;
+    width: 350px;
     height: 250px;
     border-radius: 50px;
   }
@@ -712,7 +712,7 @@ footer {
     gap: 1rem;
   }
   .img-proyecto {
-    width: 375px;
+    width: 350px;
     height: 250px;
   }
   .caja-proyecto {

@@ -781,15 +781,18 @@ footer {
   .link-footer {
     padding: 15px;
   }
+  .cont-info {
+    gap: 1rem;
+  }
   .cont-info p {
     font-size: 12px;
   }
   .footer-bajo p {
-    font-size: 10px;
+    font-size: 8px;
   }
   .link-bt-mobile {
-    padding: 0.5rem 0.7rem;
-    font-size: 13px;
+    padding: 7px 8px;
+    font-size: 10px;
     text-align: center;
     width: fit-content;
   }

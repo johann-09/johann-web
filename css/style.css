@@ -21,6 +21,7 @@ body {
 }
 .link-bt:hover {
   background-color: #1eb16f;
+  transform: translateY(-5px);
 }
 
 .link-bt-pro {
@@ -109,8 +110,8 @@ a {
   background-color: #0B0B0F;
   width: 100%;
   height: 100svh;
-  padding-top: 30px;
-  padding-bottom: 15px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -510,13 +511,6 @@ footer {
   gap: 3rem;
 }
 
-.cont-info p {
-  font-family: "DM Sans", sans-serif;
-  font-weight: 600;
-  font-size: 1.5rem;
-  color: #F4F4F0;
-}
-
 .footer-bajo {
   border-top: 2px solid #4a4a4a;
   display: flex;
@@ -537,6 +531,22 @@ footer {
   display: flex;
   flex-direction: row;
   gap: 1rem;
+}
+
+.bt-ig {
+  background: linear-gradient(45deg, #833AB4, #E1306C, #FD1D1D, #F77737, #FCAF45);
+  color: #ffffff;
+  width: fit-content;
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 1.2rem;
+  border-radius: 50px;
+  transition: all 0.3s linear;
+}
+.bt-ig:hover {
+  transform: translateY(-5px);
+  filter: brightness(1.1);
 }
 
 /* Tablets */

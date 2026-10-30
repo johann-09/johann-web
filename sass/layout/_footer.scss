@@ -1,6 +1,6 @@
 @use "../utilities/variables" as v;
 
-footer{
+footer {
     background-color: #1f2121;
     border-top: 4px solid v.$color-menta;
     padding: 4rem 5rem;
@@ -9,28 +9,21 @@ footer{
     gap: 2rem;
 }
 
-.tit-footer{
+.tit-footer {
     font-family: v.$fuente-titulo;
     font-weight: 700;
     font-size: 6.5rem;
     color: v.$titulo-importante;
 }
 
-.cont-info{
+.cont-info {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 3rem;
 }
 
-.cont-info p{
-    font-family: v.$fuente-texto;
-    font-weight: 600;
-    font-size: 1.5rem;
-    color: v.$titulo-importante;
-}
-
-.footer-bajo{
+.footer-bajo {
     border-top: 2px solid #4a4a4a;
     display: flex;
     flex-direction: row;
@@ -39,15 +32,40 @@ footer{
     padding-top: 2rem;
 }
 
-.footer-bajo p{
+.footer-bajo p {
     font-family: v.$fuente-texto;
     font-weight: 500;
     font-size: 20px;
     color: v.$color-gris;
 }
 
-.enlaces{
+.enlaces {
     display: flex;
     flex-direction: row;
     gap: 1rem;
+}
+
+.bt-ig{
+    background: linear-gradient(
+        45deg,
+        #833AB4,
+        #E1306C,
+        #FD1D1D,
+        #F77737,
+        #FCAF45
+    );
+    color: #ffffff;
+    width: fit-content;
+    font-family: v.$fuente-texto;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 1.2rem;
+    border-radius: 50px;
+
+    transition: all 0.3s linear;
+
+    &:hover{
+        transform: translateY(-5px);
+        filter: brightness(1.1);
+    }
 }
